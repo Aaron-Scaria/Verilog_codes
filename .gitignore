@@ -1,2 +1,4 @@
 # Ignore ModelSim backup files 
 *.bak
+mux_4_1.v.bak
+mux_4_1_tb.v.bak

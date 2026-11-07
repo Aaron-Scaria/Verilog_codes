@@ -14,6 +14,3 @@ initial
 	end
 endmodule
 
-// new edited file 
-// $$$$$$$$$e
-// #################
