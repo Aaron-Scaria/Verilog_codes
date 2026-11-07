@@ -1,1 +1,2 @@
-
+# Ignore ModelSim backup files 
+*.bak
