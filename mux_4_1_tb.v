@@ -13,3 +13,5 @@ initial
 	#10; In[0]=0; In[1]=0; In[2]=0; In[3]=1; sel = 2'b11;
 	end
 endmodule
+
+// edited file
