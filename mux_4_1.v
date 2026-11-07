@@ -17,4 +17,5 @@ always@(*)
 endmodule
 // In = 4'b1010; use this to show the change in the waveform 
 // in this the waveform is constant but the output is right
-// Edited file
+// new Edited file
+// $$$$$$$$$$$$$$$$$$
