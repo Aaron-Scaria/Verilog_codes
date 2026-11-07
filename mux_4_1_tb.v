@@ -1,0 +1,15 @@
+`timescale 1ns/1ns
+module mux_4_1_tb;
+	reg [1:0] sel;
+	reg [3:0] In;
+	wire Y; 
+
+mux_4_1 muxx(.sel(sel),.In(In),.Y(Y));
+initial
+	begin
+	#10; In[0]=1; In[1]=0; In[2]=0; In[3]=0; sel = 2'b00;
+	#10; In[0]=0; In[1]=1; In[2]=0; In[3]=0; sel = 2'b01;
+	#10; In[0]=0; In[1]=0; In[2]=1; In[3]=0; sel = 2'b10;
+	#10; In[0]=0; In[1]=0; In[2]=0; In[3]=1; sel = 2'b11;
+	end
+endmodule
